@@ -1,0 +1,1 @@
+ qemu-system-x86_64 -hda containerLinux.vmdk -net user,hostfwd=tcp::10022-:22 -net nic -m 2048M -smp 8 -accel tcg,thread=multi -nographic
